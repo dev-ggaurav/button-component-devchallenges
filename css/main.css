@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div {
+  margin: 5rem 0;
+}
+
+button {
+  border-radius: 6px;
+  border: none;
+  background: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: 'Noto Sans JP', sans-serif;
+  cursor: pointer;
+  margin: 2rem;
+}
+
+.btn-default {
+  background-color: #E0E0E0;
+}
+
+.btn-default:hover {
+  background-color: #AEAEAE;
+}
+
+.btn-default-outline {
+  border: 1px solid #3D5AFE;
+  color: #3D5AFE;
+}
+
+.btn-default-outline:hover, .btn-default-outline:focus {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+.btn-default-text {
+  color: #3D5AFE;
+}
+
+.btn-default-text:hover, .btn-default-text:focus {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+.btn-default-disable-shadow {
+  background-color: #3D5AFE;
+  color: #ffffff;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+          box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+.disabled {
+  background-color: #E0E0E0;
+  color: #9E9E9E;
+  cursor: initial;
+}
+
+.disabled-text {
+  color: #9E9E9E;
+  cursor: initial;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #2962FF;
+  color: #ffffff;
+}
+
+.icon-left span {
+  padding-right: 10px;
+}
+
+.icon-right span {
+  padding-left: 10px;
+}
+
+.btn-small {
+  padding: 0.5rem;
+  background-color: #3D5AFE;
+  color: #ffffff;
+}
+
+.btn-medium {
+  padding: 0.8rem 1rem;
+  background-color: #3D5AFE;
+  color: #ffffff;
+}
+
+.btn-large {
+  padding: 1rem 1.4rem;
+  background-color: #3D5AFE;
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #3D5AFE;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #0039CB;
+}
+
+.btn-secondary {
+  background-color: #455A64;
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background-color: #1C313A;
+}
+
+.btn-danger {
+  background-color: #D32F2F;
+  color: #ffffff;
+}
+
+.btn-danger:hover {
+  background-color: #9A0007;
+}
+
+footer {
+  margin: 2rem 0;
+}
+/*# sourceMappingURL=main.css.map */

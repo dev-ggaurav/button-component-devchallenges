@@ -1,0 +1,117 @@
+@import "globals";
+@import "variables";
+
+// Default button styles
+
+.btn-default{
+    background-color: $light-grey;
+}
+
+.btn-default:hover{
+    background-color: $dark-grey;
+}
+
+.btn-default-outline{
+    border: 1px solid $primary-color;
+    color: $primary-color;
+}
+.btn-default-outline:hover,.btn-default-outline:focus{
+    background-color: $primary-color-light;
+}
+
+.btn-default-text{
+    color: $primary-color;
+}
+.btn-default-text:hover,.btn-default-text:focus{
+    background-color: $primary-color-light;
+}
+
+.btn-default-disable-shadow{
+    background-color: $primary-color;
+    color: #ffffff;
+}
+
+.shadow{
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+//disabled button styles
+
+.disabled{
+    background-color: $light-grey;
+    color: #9E9E9E;
+    cursor: initial;
+}
+.disabled-text{
+    color: #9E9E9E;
+    cursor: initial;
+}
+
+// icon buttons styles
+
+.icon{
+    display: flex;
+    align-items: flex-start;
+    background-color:#2962FF;
+    color: #ffffff;
+}
+
+.icon-left span{
+    padding-right: 10px;
+}
+.icon-right span{
+    padding-left: 10px;
+}
+
+// buttons with different sizes
+
+.btn-small{
+    padding: 0.5rem;
+    background-color: $primary-color;
+    color: #ffffff;
+}
+.btn-medium{
+    padding: 0.8rem 1rem;
+    background-color: $primary-color;
+    color: #ffffff;
+}
+.btn-large{
+    padding:1rem 1.4rem;
+    background-color: $primary-color;
+    color: #ffffff;
+}
+
+
+// default button styles
+
+.btn-primary{
+    background-color: $primary-color;
+    color: #ffffff;
+}
+.btn-primary:hover{
+    background-color: $primary-color-hover;
+}
+
+.btn-secondary{
+    background-color: $secondary-color;
+    color: #ffffff;
+}
+.btn-secondary:hover{
+    background-color: $secondary-color-hover;
+}
+
+.btn-danger{
+    background-color: $red-color;
+    color: #ffffff;
+}
+.btn-danger:hover{
+    background-color: $red-color-hover;
+}
+
+// footer
+
+footer{
+    margin: 2rem 0;
+}
+
+
